@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body 
+{
+    font: 71%/1.5 Verdana, Sans-Serif;
+    background-image: url(images/image.jpg)
+    
+}
+
+#container 
+{
+    margin: 100px auto;
+    padding-top: 8rem;
+    width: 688px;
+}
+
+#write 
+{
+    margin: 1px 1px 5px;
+    padding: 5px;
+    width: 671px;
+    height: 100px;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+}
+
+#keyboard 
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+    #keyboard li 
+    {
+        float: left;
+        margin: 0 5px 5px 0;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #fff;
+        border: 1px solid #e3ecf6;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .capslock, .tab, .left-shift 
+    {
+         clear: left;
+    }
+        #keyboard .tab, #keyboard .delete 
+        {
+            width: 70px;
+        }
+            #keyboard .capslock 
+            {
+            width: 80px;
+            }
+            
+            #keyboard .return 
+            {
+                width: 77px;
+            }
+            
+            #keyboard .left-shift 
+            {
+                width: 95px;
+            }
+            #keyboard .right-shift 
+            {
+                width: 109px;
+            }
+            
+            .lastitem 
+            {
+            margin-right: 0;
+            }
+
+            .uppercase 
+            {
+            text-transform: uppercase;
+            }
+
+            #keyboard .space 
+            {
+            clear: left;
+            width: 681px;
+            letter-spacing: 0.5rem;
+            }
+            
+            .on 
+            {
+            display: none;
+            }
+            
+            #keyboard li:hover 
+            {
+            position: relative;
+            top: 1px;
+            left: 1px;
+            background-color: #056cae;
+            color: white;
+            border:none;
+            cursor: pointer;
+            }
+
+            #keyboard .tab:hover
+            {
+                background-color: #14bae4;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+            #keyboard .capslock:hover
+            {
+                background-color: #14bae4;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+            #keyboard .return:hover
+            {
+                background-color: #14bae4;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+            #keyboard .left-shift:hover
+            {
+                background-color: #14bae4;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+            #keyboard .right-shift:hover
+            {
+                background-color: #14bae4;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+            #keyboard .delete:hover
+            {
+                background-color: red;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+
+            
