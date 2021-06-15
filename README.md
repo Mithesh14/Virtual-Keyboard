@@ -5,7 +5,7 @@
  
 # Project deployed at
 
-<a href="https://mithesh14.github.io/Virtual-Keyboard/">Virtual Keyboard</a>
+<a href="https://mithesh14.github.io/Virtual-keyboard/">Virtual Keyboard</a>
 
 # Screenshots
 
